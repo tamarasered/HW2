@@ -52,6 +52,10 @@
         {
             "source": "NPS.R",
             "target": "NPS.csv"
+        },
+        {
+            "source": "clean_data.csv",
+            "target": "explore.R"
         }
     ]
 }
