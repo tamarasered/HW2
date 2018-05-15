@@ -90,3 +90,4 @@
 2018-05-15 13:47:54,065 | INFO     | 0103 | adding node histogram.png
 2018-05-15 13:47:58,453 | INFO     | 0123 | adding edge source: descript.R target: histogram.png
 2018-05-15 13:50:06,667 | INFO     | 0308 | user deleting node descript.csv
+2018-05-15 13:51:46,042 | INFO     | 0308 | user deleting node NPS.csv
