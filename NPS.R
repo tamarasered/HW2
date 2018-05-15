@@ -21,12 +21,14 @@ NPS <- function(LTR) {
 NPS(LTR)
 
 # PART E: Compare NPS for length of stays less than 2 days vs length of stays greater than 2 days
+# Clean LENGTH_OF_STAY_C column.
+clean_data1 <- clean_data [!is.na(clean_data$LENGTH_OF_STAY_C),] 
 # Create a new vector from data frame where LENGTH_OF_STAY_C value is >2 and apply NPS function.
-LOS_l2 <- clean_data[clean_data$LENGTH_OF_STAY_C<2,]
+LOS_l2 <- clean_data1[clean_data$LENGTH_OF_STAY_C<2,]
 LTR_l2 <- LOS_l2$Likelihood_Recommend_H
 NPS(LTR_l2)
 # Create a new vector from data frame where LENGTH_OF_STAY_C value is <2 and apply NPS function.
-LOS_g2 <- clean_data[clean_data$LENGTH_OF_STAY_C>2,]
+LOS_g2 <- clean_data1[clean_data$LENGTH_OF_STAY_C>2,]
 LTR_g2 <- LOS_g2$Likelihood_Recommend_H
 NPS(LTR_g2) 
 ## end your R code and logic 
