@@ -16,12 +16,6 @@
             "name": "NPS.R"
         },
         {
-            "name": "explore.csv"
-        },
-        {
-            "name": "explore.R"
-        },
-        {
             "name": "histogram.png"
         },
         {
@@ -67,14 +61,6 @@
         {
             "source": "clean_data.csv",
             "target": "NPS.R"
-        },
-        {
-            "source": "clean_data.csv",
-            "target": "explore.R"
-        },
-        {
-            "source": "explore.R",
-            "target": "explore.csv"
         },
         {
             "source": "descript.R",
