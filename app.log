@@ -86,3 +86,4 @@
 2018-05-15 13:45:51,579 | INFO     | 0103 | adding node explore.csv
 2018-05-15 13:45:58,328 | INFO     | 0103 | adding node explore.R
 2018-05-15 13:46:06,042 | INFO     | 0123 | adding edge source: clean_data.csv target: explore.R
+2018-05-15 13:46:12,956 | INFO     | 0123 | adding edge source: explore.R target: explore.csv
