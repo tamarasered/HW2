@@ -10,6 +10,13 @@ df <- read.csv('LCS.csv')
 
 ## start writing your R code from here
 
+AVG <- mean(replicate(100, mean(sample(NPS(LTR),10))))
+
+
+
+png(filename="hist_NPS10.png")
+hist(AVG)
+dev.off()
 ## end your R code and logic 
 
 ####################################
