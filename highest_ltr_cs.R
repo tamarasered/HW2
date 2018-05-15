@@ -20,9 +20,12 @@ LTR <- unique(LTR)
 LTR <- LTR[!is.na(LTR)]
 
 #Calling the library "Modeest"
-
 library(modeest)
+
+#The most number of survey rating for the staff caring
 mfv(df$Staff_Cared_H)
+
+#The most number of survey rating for the hotel condition
 mfv(df$Condition_Hotel_H)
 ## end your R code and logic 
 
