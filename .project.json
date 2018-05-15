@@ -31,7 +31,9 @@
             "name": "LCS.csv"
         },
         {
-            "name": "highest_ltr.R"
+            "name": "highest_ltr_cs.R",
+            "task_status": "not started",
+            "assigned_to": "not assigned"
         }
     ],
     "edges": [
@@ -73,7 +75,7 @@
         },
         {
             "source": "LCS.csv",
-            "target": "highest_ltr.R"
+            "target": "highest_ltr_cs.R"
         }
     ]
 }
