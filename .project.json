@@ -16,9 +16,6 @@
             "name": "NPS.R"
         },
         {
-            "name": "NPS.csv"
-        },
-        {
             "name": "explore.csv"
         },
         {
@@ -44,10 +41,6 @@
         {
             "source": "clean_data.csv",
             "target": "NPS.R"
-        },
-        {
-            "source": "NPS.R",
-            "target": "NPS.csv"
         },
         {
             "source": "clean_data.csv",
