@@ -20,7 +20,7 @@ LTR <- unique(LTR)
 LTR <- LTR[!is.na(LTR)]
 
 #Calling the library "Modeest"
-install.packages("modeest")
+
 library(modeest)
 mfv(hotel$Staff_Cared_H)
 mfv(hotel$Condition_Hotel_H)
