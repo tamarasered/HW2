@@ -82,3 +82,4 @@
 2018-05-15 13:42:42,803 | INFO     | 0103 | adding node NPS.R
 2018-05-15 13:42:53,581 | INFO     | 0103 | adding node NPS.csv
 2018-05-15 13:42:58,125 | INFO     | 0123 | adding edge source: clean_data.csv target: NPS.R
+2018-05-15 13:43:04,319 | INFO     | 0123 | adding edge source: NPS.R target: NPS.csv
