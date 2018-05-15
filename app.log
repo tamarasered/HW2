@@ -108,3 +108,5 @@
 2018-05-15 13:57:56,150 | INFO     | 0103 | adding node highest_ltr_cs2.R
 2018-05-15 13:58:02,204 | INFO     | 0123 | adding edge source: clean_data.csv target: highest_ltr_cs2.R
 2018-05-15 14:03:04,667 | INFO     | 0103 | adding node NPS10.R
+2018-05-15 14:03:22,712 | INFO     | 0103 | adding node NPS1000.R
+2018-05-15 14:03:33,838 | INFO     | 0123 | adding edge source: LCS.csv target: NPS10.R
