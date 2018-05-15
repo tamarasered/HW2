@@ -9,8 +9,14 @@ df <- read.csv('LCS.csv')
 ####################################
 
 ## start writing your R code from here
+
+#Looking for the maximum LTR, if the row matches the maximum number then aggregating staff cared and hotel condition values. Otherwise, NA
 LTR <- ifelse(df$Likelihood_Recommend_H==max(df$Likelihood_Recommend_H), df$Staff_Cared_H+df$Condition_Hotel_H,NA)
+
+#Finding unique values of rating
 LTR <- unique(LTR)
+
+#Removing NA from the list
 LTR <- LTR[!is.na(LTR)]
 ## end your R code and logic 
 
