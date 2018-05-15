@@ -18,7 +18,7 @@ new_df_LCS <- data.frame("Likelihood_Recommend_H"=clean_data$Likelihood_Recommen
 
 ####################################
 ##### write output file ############
-write.csv(LCS, file = 'LCS.csv')
+write.csv(new_df_LCS, file = 'LCS.csv')
 ####################################
 
 
