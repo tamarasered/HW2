@@ -60,3 +60,4 @@
 2018-05-15 12:08:00,365 | INFO     | 0187 | user opening data.csv
 2018-05-15 13:31:23,127 | INFO     | 0103 | adding node descript.R
 2018-05-15 13:31:43,925 | INFO     | 0103 | adding node descript.csv
+2018-05-15 13:31:50,596 | INFO     | 0123 | adding edge source: data.csv target: descript.R
