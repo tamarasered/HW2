@@ -101,3 +101,4 @@
 2018-05-15 13:54:56,772 | INFO     | 0123 | adding edge source: highest_ltr.R target: highest_ltr.csv
 2018-05-15 13:55:13,734 | INFO     | 0308 | user deleting node highest_ltr.csv
 2018-05-15 13:55:51,435 | INFO     | 0103 | adding node cs.R
+2018-05-15 13:56:20,995 | INFO     | 0308 | user deleting node cs.R
