@@ -9,12 +9,12 @@ df <- read.csv('clean_data.csv')
 ####################################
 
 ## start writing your R code from here
-
+explore <- data.frame(df$Likelihood_Recommend_H, df$Condition_Hotel_H, df$Staff_Cared_H)
 ## end your R code and logic 
 
 ####################################
 ##### write output file ############
-write.csv(df, file = 'explore.csv')
+write.csv(explore, file = 'explore.csv')
 ####################################
 
 
