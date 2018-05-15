@@ -18,7 +18,7 @@ Maximum
 Minimum <- min(LR)
 Minimum
 # Having those variables the range can be found.
-Range <- maximum-minimum
+Range <- Maximum-Minimum
 Range
 # Calculating and creating corresponding variables for mean and standard deviation.
 Mean <- mean(LR)
