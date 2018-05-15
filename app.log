@@ -64,3 +64,11 @@
 2018-05-15 13:31:57,811 | INFO     | 0123 | adding edge source: descript.R target: descript.csv
 2018-05-15 13:32:01,339 | INFO     | 0264 | user started git push
 2018-05-15 13:32:04,761 | INFO     | 0264 | user started git push
+2018-05-15 13:32:10,905 | INFO     | 0349 | 409
+2018-05-15 13:32:10,905 | INFO     | 0349 | 409
+2018-05-15 13:32:10,906 | INFO     | 0364 | merge conflict
+2018-05-15 13:32:10,906 | INFO     | 0364 | merge conflict
+2018-05-15 13:32:11,316 | INFO     | 0349 | 409
+2018-05-15 13:32:11,316 | INFO     | 0349 | 409
+2018-05-15 13:32:11,316 | INFO     | 0364 | merge conflict
+2018-05-15 13:32:11,316 | INFO     | 0364 | merge conflict
