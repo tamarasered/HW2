@@ -4,7 +4,7 @@
             "name": "raw_data.csv"
         },
         {
-            "name": "data.csv"
+            "name": "clean_data.csv"
         },
         {
             "name": "clean.R"
@@ -23,10 +23,10 @@
         },
         {
             "source": "clean.R",
-            "target": "data.csv"
+            "target": "clean_data.csv"
         },
         {
-            "source": "data.csv",
+            "source": "clean_data.csv",
             "target": "descript.R"
         },
         {
