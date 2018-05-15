@@ -59,6 +59,10 @@
         {
             "source": "descript.R",
             "target": "histogram.png"
+        },
+        {
+            "source": "clean_data.csv",
+            "target": "LCS.R"
         }
     ]
 }
