@@ -11,7 +11,7 @@ df <- read.csv('LCS.csv')
 ## start writing your R code from here
 
 #Sampling 10 surveys and assingning as vector LTR
-LTR <- sample(df$Likelihood_Recommend_H,10)
+LTR <- sample(df$Likelihood_Recommend_H,10, replace=FALSE)
 
 #Running the function NPS
 NPS <- function(LTR) {
@@ -24,7 +24,7 @@ NPS <- function(LTR) {
 NPS(LTR)
 
 #Running the mean value of each sample 100 times
-AVG <- replicate(100, mean(sample(df$Likelihood_Recommend_H,10)))
+AVG <- replicate(100, mean(sample(df$Likelihood_Recommend_H,10, replace=FALSE)))
 
 #Creating a histogram of the mean values
 png(filename="hist_NPS10.png")
