@@ -19,7 +19,9 @@
             "name": "explore.csv"
         },
         {
-            "name": "explore.R"
+            "name": "explore.R",
+            "task_status": "not started",
+            "assigned_to": "ksapaev"
         },
         {
             "name": "histogram.png"
