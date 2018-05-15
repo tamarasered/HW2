@@ -5,7 +5,7 @@ setwd(Sys.getenv('PROJECT_HOME'))
 
 ####################################
 ## write code to read input csv into data frame
-df <- read.csv('LCS.csv')
+df <- read.csv('clean_data.csv')
 ####################################
 
 ## start writing your R code from here
@@ -32,4 +32,5 @@ mfv(df$Condition_Hotel_H)
 ####################################
 ##### write output file ############
 write.csv(df, file = 'highest_ltr.csv')
+####################################
 ####################################
