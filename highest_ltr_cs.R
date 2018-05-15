@@ -5,8 +5,8 @@ setwd(Sys.getenv('PROJECT_HOME'))
 
 ####################################
 ## write code to read input csv into data frame
-idf <- read.csv('clean_data.csv')
-df <- read.csv('LCS.csv')
+idf <- read.csv('clean_data.csv') #Initial cleaned dataframe
+df <- read.csv('LCS.csv') #The latest cleaned dataframe
 ####################################
 
 ## start writing your R code from here
@@ -23,11 +23,18 @@ LTR <- LTR[!is.na(LTR)]
 #Calling the library "Modeest"
 library(modeest)
 
-#The most number of survey rating for the staff caring
+#The most number of survey rating for the staff caring for the most recently cleaned dataset
 mfv(df$Staff_Cared_H)
+#The most number of survey rating for the staff caring for the initially cleaned dataset
+mfv(idf$Staff_Cared_H)
 
-#The most number of survey rating for the hotel condition
+
+#The most number of survey rating for the hotel condition for the most recently cleaned dataset
 mfv(df$Condition_Hotel_H)
+
+#The most number of survey rating for the hotel condition for the initially cleaned dataset
+mfv(idf$Condition_Hotel_H)
+
 ## end your R code and logic 
 
 ####################################
