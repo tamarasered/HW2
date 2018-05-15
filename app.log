@@ -92,3 +92,5 @@
 2018-05-15 13:50:06,667 | INFO     | 0308 | user deleting node descript.csv
 2018-05-15 13:51:46,042 | INFO     | 0308 | user deleting node NPS.csv
 2018-05-15 13:52:38,301 | INFO     | 0103 | adding node LCS.R
+2018-05-15 13:52:50,177 | INFO     | 0103 | adding node LCS.csv
+2018-05-15 13:52:54,412 | INFO     | 0123 | adding edge source: clean_data.csv target: LCS.R
