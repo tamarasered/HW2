@@ -9,17 +9,22 @@ df <- read.csv('LCS.csv')
 ####################################
 
 ## start writing your R code from here
-LTR <- c(df$Likelihood_Recommend_H)
+
+
+#Sampling 10 surveys and assingning as vector LTR
+LTR <- sample(df$Likelihood_Recommend_H,10)
+
+#Running the function NPS
 NPS <- function(LTR) {
   promoters  <- (sum(LTR > 8))/length(LTR)
   detractors <- (sum(LTR < 7))/length(LTR)
   nps <- promoters-detractors 
   return(nps)
 }
+#Checking the return from the function
+NPS(LTR)
 
-AVG <- mean(replicate(100, mean(sample(NPS(LTR),10))))
-
-
+AVG <- replicate(100, mean(sample(df$Likelihood_Recommend_H,10)))
 
 png(filename="hist_NPS10.png")
 hist(AVG)
