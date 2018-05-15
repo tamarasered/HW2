@@ -9,6 +9,13 @@ df <- read.csv('LCS.csv')
 ####################################
 
 ## start writing your R code from here
+LTR <- c(df$Likelihood_Recommend_H)
+NPS <- function(LTR) {
+  promoters  <- (sum(LTR > 8))/length(LTR)
+  detractors <- (sum(LTR < 7))/length(LTR)
+  nps <- promoters-detractors 
+  return(nps)
+}
 
 AVG <- mean(replicate(100, mean(sample(NPS(LTR),10))))
 
