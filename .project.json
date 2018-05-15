@@ -77,6 +77,10 @@
         {
             "source": "LCS.csv",
             "target": "highest_ltr.R"
+        },
+        {
+            "source": "highest_ltr.R",
+            "target": "highest_ltr.csv"
         }
     ]
 }
