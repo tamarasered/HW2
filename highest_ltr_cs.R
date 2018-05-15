@@ -9,6 +9,7 @@ df <- read.csv('LCS.csv')
 ####################################
 
 ## start writing your R code from here
+LTR <- rownames(df[which.max(df$Likelihood_Recommend_H),])
 
 ## end your R code and logic 
 
