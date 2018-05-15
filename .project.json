@@ -107,6 +107,10 @@
         {
             "source": "NPS10.R",
             "target": "hist_NPS10.png"
+        },
+        {
+            "source": "NPS1000.R",
+            "target": "hist_NPS1000.png"
         }
     ]
 }
