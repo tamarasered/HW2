@@ -127,3 +127,6 @@
 2018-05-15 14:42:24,800 | INFO     | 0364 | merge conflict
 2018-05-15 14:42:25,413 | INFO     | 0349 | 409
 2018-05-15 14:42:25,413 | INFO     | 0364 | merge conflict
+2018-05-15 15:05:57,802 | INFO     | 0226 | user started running node descript.R
+2018-05-15 15:05:58,498 | INFO     | 0112 | running node descript.R
+2018-05-15 15:06:11,974 | INFO     | 0187 | user opening histogram.png
