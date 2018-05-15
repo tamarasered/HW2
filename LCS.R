@@ -15,8 +15,8 @@ new_df_LCS <- data.frame("Likelihood_Recommend_H"=clean_data$Likelihood_Recommen
                          "Condition_Hotel_H"=clean_data$Condition_Hotel_H,
                          "Staff_Cared_H"=clean_data$Staff_Cared_H)
 clean_new_df_LCS <- new_df_LCS [!is.na(new_df_LCS$Likelihood_Recommend_H),] 
-clean_new_df_LCS <- new_df_LCS [!is.na(clean_new_df_LCS$Condition_Hotel_HH),] 
-clean_new_df_LCS <- new_df_LCS [!is.na(clean_new_df_LCS$Staff_Cared_H),] 
+clean_new_df_LCS <- clean_new_df_LCS [!is.na(clean_new_df_LCS$Condition_Hotel_HH),] 
+clean_new_df_LCS <- clean_new_df_LCS [!is.na(clean_new_df_LCS$Staff_Cared_H),] 
 ## end your R code and logic 
 
 ####################################
