@@ -32,9 +32,6 @@
         },
         {
             "name": "highest_ltr.R"
-        },
-        {
-            "name": "highest_ltr.csv"
         }
     ],
     "edges": [
@@ -77,10 +74,6 @@
         {
             "source": "LCS.csv",
             "target": "highest_ltr.R"
-        },
-        {
-            "source": "highest_ltr.R",
-            "target": "highest_ltr.csv"
         }
     ]
 }
