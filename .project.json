@@ -4,10 +4,51 @@
             "name": "raw_data.csv"
         },
         {
-            "name": "data.csv"
+            "name": "clean_data.csv"
         },
         {
             "name": "clean.R"
+        },
+        {
+            "name": "descript.R"
+        },
+        {
+            "name": "NPS.R"
+        },
+        {
+            "name": "explore.csv"
+        },
+        {
+            "name": "explore.R"
+        },
+        {
+            "name": "histogram.png"
+        },
+        {
+            "name": "LCS.R"
+        },
+        {
+            "name": "LCS.csv"
+        },
+        {
+            "name": "highest_ltr_cs.R",
+            "task_status": "not started",
+            "assigned_to": "not assigned"
+        },
+        {
+            "name": "highest_ltr_cs2.R"
+        },
+        {
+            "name": "NPS10.R"
+        },
+        {
+            "name": "NPS1000.R"
+        },
+        {
+            "name": "hist_NPS10.png"
+        },
+        {
+            "name": "hist_NPS1000.png"
         }
     ],
     "edges": [
@@ -17,7 +58,59 @@
         },
         {
             "source": "clean.R",
-            "target": "data.csv"
+            "target": "clean_data.csv"
+        },
+        {
+            "source": "clean_data.csv",
+            "target": "descript.R"
+        },
+        {
+            "source": "clean_data.csv",
+            "target": "NPS.R"
+        },
+        {
+            "source": "clean_data.csv",
+            "target": "explore.R"
+        },
+        {
+            "source": "explore.R",
+            "target": "explore.csv"
+        },
+        {
+            "source": "descript.R",
+            "target": "histogram.png"
+        },
+        {
+            "source": "clean_data.csv",
+            "target": "LCS.R"
+        },
+        {
+            "source": "LCS.R",
+            "target": "LCS.csv"
+        },
+        {
+            "source": "LCS.csv",
+            "target": "highest_ltr_cs.R"
+        },
+        {
+            "source": "clean_data.csv",
+            "target": "highest_ltr_cs2.R"
+        },
+        {
+            "source": "LCS.csv",
+            "target": "NPS10.R"
+        },
+        {
+            "source": "LCS.csv",
+            "target": "NPS1000.R"
+        },
+        {
+            "source": "NPS10.R",
+            "target": "hist_NPS10.png"
+        },
+        {
+            "source": "NPS1000.R",
+            "target": "hist_NPS1000.png"
         }
     ]
 }
