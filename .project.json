@@ -43,6 +43,9 @@
         },
         {
             "name": "NPS1000.R"
+        },
+        {
+            "name": "hist_NPS10.png"
         }
     ],
     "edges": [
