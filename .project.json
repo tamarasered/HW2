@@ -26,6 +26,9 @@
         },
         {
             "name": "explore.R"
+        },
+        {
+            "name": "histogram.png"
         }
     ],
     "edges": [
