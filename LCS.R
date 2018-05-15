@@ -12,7 +12,9 @@ clean_data <- read.csv('clean_data.csv')
 # PART F: Creating a new dataframe with ‘Likelihood_Recommend_H’, Condition_Hotel_H 
 # and Staff_Cared_H all cleaned.
 # new_df_LCS <- clean_data[,clean_data$Likelihood_Recommend_H, clean_data$Condition_Hotel_H, clean_data$Staff_Cared_H]
-new_df_LCS <- data.frame("Likelihood_Recommend_H"=clean_data$Likelihood_Recommend_H)
+new_df_LCS <- data.frame("Likelihood_Recommend_H"=clean_data$Likelihood_Recommend_H,
+                         "Condition_Hotel_H"=clean_data$Condition_Hotel_H,
+                         "Staff_Cared_H"=clean_data$Staff_Cared_H)
 
 ## end your R code and logic 
 
