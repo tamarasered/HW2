@@ -31,6 +31,8 @@ NPS(LTR_l2)
 LOS_g2 <- clean_data1[clean_data1$LENGTH_OF_STAY_C>2,]
 LTR_g2 <- LOS_g2$Likelihood_Recommend_H
 NPS(LTR_g2) 
+# To compare NPSs we can substitute and see that LTR for LOS <2 is greater than LTR for LOS >2.
+NPS(LTR_l2)-NPS(LTR_g2) 
 ## end your R code and logic 
 
 ####################################
