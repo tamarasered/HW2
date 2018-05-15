@@ -102,3 +102,6 @@
 2018-05-15 13:55:13,734 | INFO     | 0308 | user deleting node highest_ltr.csv
 2018-05-15 13:55:51,435 | INFO     | 0103 | adding node cs.R
 2018-05-15 13:56:20,995 | INFO     | 0308 | user deleting node cs.R
+2018-05-15 13:56:47,283 | INFO     | 0283 | updating node
+2018-05-15 13:56:47,552 | INFO     | 0170 | updating node highest_ltr.R task status: not started assigned to: not assigned
+2018-05-15 13:56:47,553 | INFO     | 0188 | renaming node highest_ltr.R new name: highest_ltr_cs.R
