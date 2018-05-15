@@ -21,7 +21,7 @@ clean_new_df_LCS <- new_df_LCS [!is.na(new_df_LCS$Likelihood_Recommend_H,
 
 ####################################
 ##### write output file ############
-write.csv(new_df_LCS, file = 'LCS.csv')
+write.csv(clean_new_df_LCS, file = 'LCS.csv')
 ####################################
 
 
