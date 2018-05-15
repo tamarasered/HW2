@@ -112,3 +112,5 @@
 2018-05-15 14:03:33,838 | INFO     | 0123 | adding edge source: LCS.csv target: NPS10.R
 2018-05-15 14:03:45,982 | INFO     | 0123 | adding edge source: LCS.csv target: NPS1000.R
 2018-05-15 14:04:13,416 | INFO     | 0103 | adding node hist_NPS10.png
+2018-05-15 14:04:27,959 | INFO     | 0103 | adding node hist_NPS1000.png
+2018-05-15 14:04:33,536 | INFO     | 0123 | adding edge source: NPS10.R target: hist_NPS10.png
