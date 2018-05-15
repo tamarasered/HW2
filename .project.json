@@ -97,6 +97,10 @@
         {
             "source": "NPS1000.R",
             "target": "hist_NPS1000.png"
+        },
+        {
+            "source": "clean_data.csv",
+            "target": "highest_ltr_cs.R"
         }
     ]
 }
