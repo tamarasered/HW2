@@ -96,3 +96,5 @@
 2018-05-15 13:52:54,412 | INFO     | 0123 | adding edge source: clean_data.csv target: LCS.R
 2018-05-15 13:53:03,161 | INFO     | 0123 | adding edge source: LCS.R target: LCS.csv
 2018-05-15 13:54:27,510 | INFO     | 0103 | adding node highest_ltr.R
+2018-05-15 13:54:40,466 | INFO     | 0103 | adding node highest_ltr.csv
+2018-05-15 13:54:43,748 | INFO     | 0123 | adding edge source: LCS.csv target: highest_ltr.R
