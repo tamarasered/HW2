@@ -134,3 +134,6 @@
 2018-05-15 15:07:36,719 | INFO     | 0356 | merge successful
 2018-05-15 15:10:29,413 | INFO     | 0207 | user started full network run
 2018-05-15 15:10:29,972 | INFO     | 0112 | running node clean.R
+2018-05-15 15:10:55,452 | INFO     | 0226 | user started running node descript.R
+2018-05-15 15:10:55,826 | INFO     | 0112 | running node descript.R
+2018-05-15 15:10:57,635 | ERROR    | 0155 | failed descript.R
