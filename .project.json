@@ -38,6 +38,10 @@
         {
             "source": "descript.R",
             "target": "descript.csv"
+        },
+        {
+            "source": "clean_data.csv",
+            "target": "NPS.R"
         }
     ]
 }
