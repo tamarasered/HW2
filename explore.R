@@ -10,8 +10,8 @@ df <- read.csv('clean_data.csv')
 
 ## start writing your R code from here
 explore <- data.frame(df$Likelihood_Recommend_H, df$Condition_Hotel_H, df$Staff_Cared_H)
-explore <- explore[!is.na(explore$Condition_Hotel_H),]
-explore <- explore[!is.na(explore$Staff_Cared_H),]
+explore <- explore[!is.na(explore$df.Condition_Hotel_H),]
+explore <- explore[!is.na(explore$df.Staff_Cared_H),]
 ## end your R code and logic 
 
 ####################################
