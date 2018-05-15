@@ -105,3 +105,5 @@
 2018-05-15 13:56:47,283 | INFO     | 0283 | updating node
 2018-05-15 13:56:47,552 | INFO     | 0170 | updating node highest_ltr.R task status: not started assigned to: not assigned
 2018-05-15 13:56:47,553 | INFO     | 0188 | renaming node highest_ltr.R new name: highest_ltr_cs.R
+2018-05-15 13:57:56,150 | INFO     | 0103 | adding node highest_ltr_cs2.R
+2018-05-15 13:58:02,204 | INFO     | 0123 | adding edge source: clean_data.csv target: highest_ltr_cs2.R
