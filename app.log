@@ -57,3 +57,5 @@
 2018-05-15 12:04:45,207 | INFO     | 0187 | user opening raw_data.csv
 2018-05-15 12:07:42,282 | INFO     | 0207 | user started full network run
 2018-05-15 12:07:42,619 | INFO     | 0112 | running node clean.R
+2018-05-15 12:08:00,365 | INFO     | 0187 | user opening data.csv
+2018-05-15 13:31:23,127 | INFO     | 0103 | adding node descript.R
