@@ -43,9 +43,6 @@
         },
         {
             "name": "hist_NPS1000.png"
-        },
-        {
-            "name": "highest_ltr.csv"
         }
     ],
     "edges": [
@@ -100,10 +97,6 @@
         {
             "source": "NPS1000.R",
             "target": "hist_NPS1000.png"
-        },
-        {
-            "source": "highest_ltr_cs.R",
-            "target": "highest_ltr.csv"
         }
     ]
 }
