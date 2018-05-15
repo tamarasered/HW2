@@ -94,3 +94,4 @@
 2018-05-15 13:52:38,301 | INFO     | 0103 | adding node LCS.R
 2018-05-15 13:52:50,177 | INFO     | 0103 | adding node LCS.csv
 2018-05-15 13:52:54,412 | INFO     | 0123 | adding edge source: clean_data.csv target: LCS.R
+2018-05-15 13:53:03,161 | INFO     | 0123 | adding edge source: LCS.R target: LCS.csv
