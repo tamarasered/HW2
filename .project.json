@@ -89,6 +89,10 @@
         {
             "source": "clean_data.csv",
             "target": "highest_ltr_cs2.R"
+        },
+        {
+            "source": "LCS.csv",
+            "target": "NPS10.R"
         }
     ]
 }
