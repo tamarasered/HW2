@@ -28,12 +28,18 @@ mfv(df$Staff_Cared_H)
 #The most number of survey rating for the staff caring for the initially cleaned dataset
 mfv(idf$Staff_Cared_H)
 
+#Difference
+mfv(df$Staff_Cared_H) - mfv(idf$Staff_Cared_H)
+
 
 #The most number of survey rating for the hotel condition for the most recently cleaned dataset
 mfv(df$Condition_Hotel_H)
 
 #The most number of survey rating for the hotel condition for the initially cleaned dataset
 mfv(idf$Condition_Hotel_H)
+
+#Difference
+mfv(df$Condition_Hotel_H) - mfv(idf$Condition_Hotel_H)
 
 ## end your R code and logic 
 
