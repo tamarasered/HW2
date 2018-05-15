@@ -56,6 +56,10 @@
         {
             "source": "clean_data.csv",
             "target": "explore.R"
+        },
+        {
+            "source": "explore.R",
+            "target": "explore.csv"
         }
     ]
 }
