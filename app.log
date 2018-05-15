@@ -77,3 +77,5 @@
 2018-05-15 13:32:55,345 | INFO     | 0364 | merge conflict
 2018-05-15 13:32:55,753 | INFO     | 0349 | 409
 2018-05-15 13:32:55,754 | INFO     | 0364 | merge conflict
+2018-05-15 13:33:50,711 | INFO     | 0283 | updating node
+2018-05-15 13:33:50,795 | INFO     | 0188 | renaming node data.csv new name: clean_data.csv
