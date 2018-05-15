@@ -63,6 +63,10 @@
         {
             "source": "clean_data.csv",
             "target": "LCS.R"
+        },
+        {
+            "source": "LCS.R",
+            "target": "LCS.csv"
         }
     ]
 }
