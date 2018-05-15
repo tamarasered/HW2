@@ -103,6 +103,10 @@
         {
             "source": "LCS.csv",
             "target": "NPS1000.R"
+        },
+        {
+            "source": "NPS10.R",
+            "target": "hist_NPS10.png"
         }
     ]
 }
