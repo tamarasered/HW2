@@ -9,7 +9,7 @@ df <- read.csv('LCS.csv')
 ####################################
 
 ## start writing your R code from here
-LTR <- rownames(df[which.max(df$Likelihood_Recommend_H),])
+LTR <- rownames(df[max(df$Likelihood_Recommend_H),])
 
 ## end your R code and logic 
 
@@ -17,6 +17,5 @@ LTR <- rownames(df[which.max(df$Likelihood_Recommend_H),])
 ##### write output file ############
 write.csv(df, file = 'highest_ltr.csv')
 ####################################
-
 
 
