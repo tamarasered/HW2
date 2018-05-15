@@ -14,8 +14,9 @@ df <- read.csv('data.csv')
 
 ####################################
 ##### write output file ############
-write.csv(df, file = 'descript.csv')
+# add your R code to write histogram.png
 ####################################
+
 
 
 
