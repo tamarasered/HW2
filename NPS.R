@@ -14,7 +14,8 @@ df <- read.csv('clean_data.csv')
 
 ####################################
 ##### write output file ############
-# add your R code to write output file
+write.csv(df, file = 'NPS.csv')
 ####################################
+
 
 
