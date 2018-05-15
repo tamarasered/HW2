@@ -18,6 +18,11 @@ LTR <- unique(LTR)
 
 #Removing NA from the list
 LTR <- LTR[!is.na(LTR)]
+
+#Calling the library "Modeest"
+library(modeest)
+mfv(hotel$Staff_Cared_H)
+mfv(hotel$Condition_Hotel_H)
 ## end your R code and logic 
 
 ####################################
