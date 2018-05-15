@@ -13,9 +13,6 @@
             "name": "descript.R"
         },
         {
-            "name": "descript.csv"
-        },
-        {
             "name": "NPS.R"
         },
         {
@@ -43,10 +40,6 @@
         {
             "source": "clean_data.csv",
             "target": "descript.R"
-        },
-        {
-            "source": "descript.R",
-            "target": "descript.csv"
         },
         {
             "source": "clean_data.csv",
