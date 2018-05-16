@@ -19,6 +19,23 @@ NPS <- function(LTR) {
   return(nps)
 }
 NPS(LTR)
+
+
+#Part E: Comparing NPS for less than 2 days stay and more than 2 days stay
+library(dplyr)
+#Calculating NPS for the stays less than 2 days
+LTR1 <- clean_data %>% filter(LENGTH_OF_STAY_C<2)
+LTR1 <- LTR1$Likelihood_Recommend_H
+NPS(LTR1)
+
+#Calculating NPS for the stays more than 2 days
+LTR2 <- clean_data %>% filter(LENGTH_OF_STAY_C>2)
+LTR2 <- LTR2$Likelihood_Recommend_H
+NPS(LTR2)
+
+#Calculating the difference
+NPS(LTR1) - NPS(LTR2)
+
 ## end your R code and logic 
 
 ####################################
