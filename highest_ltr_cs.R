@@ -9,10 +9,10 @@ idf <- read.csv('clean_data.csv') #Initial cleaned dataframe
 df <- read.csv('LCS.csv') #The latest cleaned dataframe
 ####################################
 
-# ## start writing your R code from here
-# library(dplyr)
-# #Creating a dataframe with the recommendation likelihood greater than mean
-# LTR <- df %>% filter(!is.na(Condition_Hotel_H) & !is.na(Staff_Cared_H)) %>% select(Likelihood_Recommend_H, Condition_Hotel_H, Staff_Cared_H)
+## start writing your R code from here
+library(dplyr)
+#Creating a dataframe with the recommendation likelihood greater than mean
+LTR <- df %>% filter(!is.na(Condition_Hotel_H) & !is.na(Staff_Cared_H)) %>% select(Likelihood_Recommend_H, Condition_Hotel_H, Staff_Cared_H)
 # 
 # LTRmost <- LTR %>% filter(Likelihood_Recommend_H>mean(Likelihood_Recommend_H))
 # 
