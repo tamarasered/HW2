@@ -15,17 +15,16 @@ df <- read.csv('LCS.csv') #The latest cleaned dataframe
 keep <- df$Likelihood_Recommend_H == max(df$Likelihood_Recommend_H)
 new_df <- df[keep,]
 write.csv(new_df, 'new_df.csv')
-# LTR <- df %>% filter(!is.na(Condition_Hotel_H) & !is.na(Staff_Cared_H)) %>% select(Likelihood_Recommend_H, Condition_Hotel_H, Staff_Cared_H)
-# 
-# LTRmost <- LTR %>% filter(Likelihood_Recommend_H>mean(Likelihood_Recommend_H))
-# 
-# #Plotting the results
-# png(filename="plot.png")
-# plot(LTRmost$Staff_Cared_H, LTRmost$Condition_Hotel_H)
-# dev.off()
-# 
+
+# PART F.3: Output the conditions where there were the most number of survey’s 
+# completed – in terms of the rating of the hotel condition and the staff caring
 # #Calling the library "Modeest"
-# library(modeest)
+library(modeest)
+
+mode_of_staff <- mfv(df$Staff_Cared_H)
+mode_of_condition <- mfv(df$Staff_Cared_H)
+mode_of_staff
+mode_of_condition
 # 
 # #The most number of survey rating for the staff caring for the most recently cleaned dataset
 # mfv(df$Staff_Cared_H)
@@ -50,7 +49,6 @@ write.csv(new_df, 'new_df.csv')
 ####################################
 ##### write output file ############
 # add your R code to write plot.png
-####################################
 ####################################
 ####################################
 ####################################
