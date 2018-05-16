@@ -46,6 +46,9 @@
         },
         {
             "name": "plot.png"
+        },
+        {
+            "name": "New.R"
         }
     ],
     "edges": [
