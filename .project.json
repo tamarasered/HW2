@@ -30,9 +30,6 @@
             "assigned_to": "not assigned"
         },
         {
-            "name": "highest_ltr_cs2.R"
-        },
-        {
             "name": "NPS10.R"
         },
         {
@@ -43,6 +40,9 @@
         },
         {
             "name": "hist_NPS1000.png"
+        },
+        {
+            "name": "highest_ltr_cs2.R"
         },
         {
             "name": "plot.png"
@@ -82,10 +82,6 @@
             "target": "highest_ltr_cs.R"
         },
         {
-            "source": "clean_data.csv",
-            "target": "highest_ltr_cs2.R"
-        },
-        {
             "source": "LCS.csv",
             "target": "NPS10.R"
         },
@@ -100,6 +96,10 @@
         {
             "source": "NPS1000.R",
             "target": "hist_NPS1000.png"
+        },
+        {
+            "source": "clean_data.csv",
+            "target": "highest_ltr_cs2.R"
         },
         {
             "source": "clean_data.csv",
