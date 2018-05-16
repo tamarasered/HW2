@@ -14,7 +14,7 @@ library(dplyr)
 #Creating a dataframe with the recommendation likelihood greater than mean
 LTR <- df %>% filter(!is.na(Condition_Hotel_H) & !is.na(Staff_Cared_H)) %>% select(Likelihood_Recommend_H, Condition_Hotel_H, Staff_Cared_H)
 
-LTRmost <- LTR %>% filter(Likelihood_Recommend_H>mean(LCS$Likelihood_Recommend_H))
+LTRmost <- LTR %>% filter(Likelihood_Recommend_H>mean(Likelihood_Recommend_H))
 
 #Plotting the results
 png(filename="plot.png")
