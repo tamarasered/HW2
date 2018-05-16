@@ -12,8 +12,8 @@ df <- read.csv('LCS.csv') #The latest cleaned dataframe
 ## start writing your R code from here
 # library(dplyr)
 #	PART F.2: Output the ratings data frame with rows where there was the highest ltr.
-keep <- df$Likelihood_Recommend_H == max(df$Likelihood_Recommend_H)
-new_df <- df[keep,]
+keep1 <- df$Likelihood_Recommend_H == max(df$Likelihood_Recommend_H)
+new_df <- df[keep1,]
 write.csv(new_df, 'new_df.csv')
 
 # PART F.3: Output the conditions where there were the most number of survey’s 
@@ -22,28 +22,21 @@ write.csv(new_df, 'new_df.csv')
 library(modeest)
 
 mode_of_staff <- mfv(df$Staff_Cared_H)
-mode_of_condition <- mfv(df$Staff_Cared_H)
+mode_of_condition <- mfv(df$Condition_Hotel_H)
 mode_of_staff
 mode_of_condition
-# 
-# #The most number of survey rating for the staff caring for the most recently cleaned dataset
-# mfv(df$Staff_Cared_H)
-# #The most number of survey rating for the staff caring for the initially cleaned dataset
-# mfv(idf$Staff_Cared_H)
-# 
-# #Difference
-# mfv(df$Staff_Cared_H) - mfv(idf$Staff_Cared_H)
-# 
-# 
-# #The most number of survey rating for the hotel condition for the most recently cleaned dataset
-# mfv(df$Condition_Hotel_H)
-# 
-# #The most number of survey rating for the hotel condition for the initially cleaned dataset
-# mfv(idf$Condition_Hotel_H)
-# 
-# #Difference
-# mfv(df$Condition_Hotel_H) - mfv(idf$Condition_Hotel_H)
 
+# PART F.4: Go back to the cleaned initial dataframe and do the calculations 
+# (not relying on aggregate, and look at a specific combination of staff care 
+# rating and hotel condition rating)
+# we observe one observation of condition = 10 and staff = 5 (line 193)
+keep2 <- idf$Staff_Cared_H == 5
+new_idf <- idf[keep2,]
+keep3 <- idf$Condition_Hotel_H == 10
+new_idf <- new_idf[keep3,]
+new_order <- order(-new_idf$Likelihood_Recommend_H)
+new_idf <- new_idf[new_order,]
+head(new_idf)
 ## end your R code and logic 
 
 ####################################
