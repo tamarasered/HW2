@@ -10,15 +10,16 @@ df <- read.csv('LCS.csv') #The latest cleaned dataframe
 ####################################
 
 ## start writing your R code from here
+library(dplyr)
+#Creating a dataframe with the recommendation likelihood greater than mean
+LTR <- df %>% filter(!is.na(Condition_Hotel_H) & !is.na(Staff_Cared_H)) %>% select(Likelihood_Recommend_H, Condition_Hotel_H, Staff_Cared_H)
 
-#Looking for the maximum LTR, if the row matches the maximum number then aggregating staff cared and hotel condition values. Otherwise, NA
-LTR <- ifelse(df$Likelihood_Recommend_H==max(df$Likelihood_Recommend_H), df$Staff_Cared_H+df$Condition_Hotel_H,NA)
+LTRmost <- LTR %>% filter(Likelihood_Recommend_H>mean(LCS$Likelihood_Recommend_H))
 
-#Finding unique values of rating
-LTR <- unique(LTR)
-
-#Removing NA from the list
-LTR <- LTR[!is.na(LTR)]
+#Plotting the results
+png(filename="plot.png")
+plot(LTRmost$Staff_Cared_H, LTRmost$Condition_Hotel_H)
+dev.off()
 
 #Calling the library "Modeest"
 library(modeest)
