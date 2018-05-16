@@ -28,21 +28,21 @@ mode_of_condition
 
 # PART F.4: Go back to the cleaned initial dataframe and do the calculations 
 # (not relying on aggregate, and look at a specific combination of staff care 
-# rating and hotel condition rating)
-# we observe one observation of condition = 10 and staff = 5 (line 193)
+# rating and hotel condition rating).
+# We observe one observation of condition = 10 and staff = 5 (line 193)
 keep2 <- idf$Staff_Cared_H == 5
 new_idf <- idf[keep2,]
 keep3 <- new_idf$Condition_Hotel_H == 10
 new_idf <- new_idf[keep3,]
 new_order <- order(-new_idf$Likelihood_Recommend_H)
 new_idf <- new_idf[new_order,]
+# As it can be obseredved there's at least one row (observation) with condition = 10 and staff = 5.
 write.csv(new_idf, 'new_idf.csv')
 ## end your R code and logic 
 
 ####################################
 ##### write output file ############
-write.csv(df, file = 'new_idf.csv')
-####################################
+# add your R code to write plot.png
 ####################################
 ####################################
 ####################################
