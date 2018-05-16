@@ -45,6 +45,7 @@ mfv(df$Condition_Hotel_H) - mfv(idf$Condition_Hotel_H)
 
 ####################################
 ##### write output file ############
-write.csv(df, file = 'highest_ltr.csv')
+# add your R code to write plot.png
+####################################
 ####################################
 ####################################
