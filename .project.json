@@ -93,6 +93,10 @@
         {
             "source": "NPS1000.R",
             "target": "hist_NPS1000.png"
+        },
+        {
+            "source": "highest_ltr_cs.R",
+            "target": "new_df.csv"
         }
     ]
 }
