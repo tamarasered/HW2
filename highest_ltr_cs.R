@@ -36,7 +36,7 @@ keep3 <- idf$Condition_Hotel_H == 10
 new_idf <- new_idf[keep3,]
 new_order <- order(-new_idf$Likelihood_Recommend_H)
 new_idf <- new_idf[new_order,]
-head(new_idf)
+write.csv(new_idf, 'new_idf.csv')
 ## end your R code and logic 
 
 ####################################
