@@ -10,9 +10,12 @@ df <- read.csv('LCS.csv') #The latest cleaned dataframe
 ####################################
 
 ## start writing your R code from here
-library(dplyr)
-#Creating a dataframe with the recommendation likelihood greater than mean
-LTR <- df %>% filter(!is.na(Condition_Hotel_H) & !is.na(Staff_Cared_H)) %>% select(Likelihood_Recommend_H, Condition_Hotel_H, Staff_Cared_H)
+# library(dplyr)
+#	PART F.2: Output the ratings data frame with rows where there was the highest ltr.
+keep <- df$Likelihood_Recommend_H == max(df$Likelihood_Recommend_H)
+new_df <- df[keep,]
+write.csv(new_df, 'new_df.csv')
+# LTR <- df %>% filter(!is.na(Condition_Hotel_H) & !is.na(Staff_Cared_H)) %>% select(Likelihood_Recommend_H, Condition_Hotel_H, Staff_Cared_H)
 # 
 # LTRmost <- LTR %>% filter(Likelihood_Recommend_H>mean(Likelihood_Recommend_H))
 # 
