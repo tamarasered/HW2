@@ -104,6 +104,10 @@
         {
             "source": "clean_data.csv",
             "target": "highest_ltr_cs.R"
+        },
+        {
+            "source": "highest_ltr_cs.R",
+            "target": "new_idf.csv"
         }
     ]
 }
