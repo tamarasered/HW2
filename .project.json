@@ -97,6 +97,10 @@
         {
             "source": "highest_ltr_cs.R",
             "target": "new_df.csv"
+        },
+        {
+            "source": "clean_data.csv",
+            "target": "highest_ltr_cs.R"
         }
     ]
 }
