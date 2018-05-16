@@ -42,6 +42,12 @@
             "name": "hist_NPS1000.png"
         },
         {
+            "name": "new_df.csv"
+        },
+        {
+            "name": "new_idf.csv"
+        },
+        {
             "name": "highest_ltr_cs2.R"
         },
         {
@@ -101,12 +107,20 @@
             "target": "hist_NPS1000.png"
         },
         {
-            "source": "clean_data.csv",
-            "target": "highest_ltr_cs2.R"
+            "source": "highest_ltr_cs.R",
+            "target": "new_df.csv"
         },
         {
             "source": "clean_data.csv",
             "target": "highest_ltr_cs.R"
+        },
+        {
+            "source": "highest_ltr_cs.R",
+            "target": "new_idf.csv"
+        },
+        {
+            "source": "clean_data.csv",
+            "target": "highest_ltr_cs2.R"
         },
         {
             "source": "highest_ltr_cs.R",
