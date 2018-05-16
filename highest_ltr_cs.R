@@ -14,7 +14,6 @@ df <- read.csv('LCS.csv') #The latest cleaned dataframe
 #	PART F.2: Output the ratings data frame with rows where there was the highest ltr.
 keep <- df$Likelihood_Recommend_H == max(df$Likelihood_Recommend_H)
 new_df <- df[keep,]
-head(new_df)
 write.csv(new_df, 'new_df.csv')
 # LTR <- df %>% filter(!is.na(Condition_Hotel_H) & !is.na(Staff_Cared_H)) %>% select(Likelihood_Recommend_H, Condition_Hotel_H, Staff_Cared_H)
 # 
@@ -50,7 +49,7 @@ write.csv(new_df, 'new_df.csv')
 
 ####################################
 ##### write output file ############
-write.csv(df, file = 'new_df.csv')
+# add your R code to write plot.png
 ####################################
 ####################################
 ####################################
